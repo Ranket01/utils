@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+// Ye nevbar He haha
+
 export default function (props) {
   const [bgcolor, setbgcolor] = useState("white");
 

@@ -4,42 +4,8 @@ import About from "./components/About";
 import Form from "./components/Form";
 import Navbar from "./components/Navbar";
 import Alert from "./components/Alert";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Routes } from "react-router-dom";
 
-// ReactDOM.render(
-//   <BrowserRouter>
-//     <App />
-//   </BrowserRouter>,
-//   el
-// );
 
-// import {
-//   useParams,
-//   useLocation,
-//   useNavigate,
-// } from "@reach/router";
-
-// function User() {
-//   let { userId, assignmentId } = useParams();
-//   let location = useLocation();
-//   let navigate = useNavigate();
-// }
-
-// var router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Form
-//     heading="Enter Text Here To Analysis"
-//     mode={mode}
-//     Alert_Function={Alert_Function}
-//   />,
-//   },
-//   {
-//     path: "./components/About",
-//     element: <About mode={mode} />,
-//   },
-// ])
 
 function App() {
   const [mode, setMode] = useState("light");
